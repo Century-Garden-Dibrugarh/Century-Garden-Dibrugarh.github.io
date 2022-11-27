@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Century Garden Dibrugarh</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">VARIETIES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:60px">Century<br>Garden<br>Dibrugarh</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-wheat w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p>Century Garden was founded in 2021 by Miss Upasana Dhekial along with her family, seeking to bring exotic and indigenous houseplant varieties among the people.</p>
+    <p>We offer nearly 100 plant varieties, both flowering plants as well as foliage, seasonal and perennial.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>“No other life is as pure as the plants. It is no wonder we cannot understand them.”</i></p>
+      <p>Robert Black</p>
+    </div>
+    <img src="img9.jpg" style="width:100%;max-width:1000px" alt="white gerbera" class="w3-margin-top">
+    <br><br>
+    <p><strong>Opening hours:</strong> Everyday from 10am to 6pm.</p>
+    <p><strong>Address:</strong> South Khalihamari, Opposite Christ Church, Dibrugarh-786001, Assam</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SOME VARIETIES THAT WE HAVE</span></h5>
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Flowers');" id="myLink">
+        <div class="w3-col s6 tablink">Flowers</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Foliage');">
+        <div class="w3-col s6 tablink">Foliage</div>
+      </a>
+    </div>
+
+    <div id="Flowers" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Bicolor Bougainvillea</h5>
+      <p class="w3-text-grey">A beautiful, low, spreading flowering plant with white and soft pink blossom-like bracts.</p><br>
+    
+      <h5>Orange Hibiscus</h5>
+      <p class="w3-text-grey">Beautiful flowering plant with large, conspicuous, trumpet-shaped, orange flowers.</p><br>
+    
+      <h5>Red Mandevilla</h5>
+      <p class="w3-text-grey">A tender woody vine much beloved by gardeners in warmer climates.</p><br>
+    
+      <h5>Dark Purple Phalaenopsis</h5>
+      <p class="w3-text-grey">Tear-shaped purple flowers, easy to get reflowering and to care for.</p>
+    </div>
+
+    <div id="Foliage" class="w3-container menu w3-padding-48 w3-card">
+      <h5>String of Nickles</h5>
+      <p class="w3-text-grey">It is a vining succulent that is native to the tropical regions of Asia, India, and Australia.</p><br>
+    
+      <h5>Fiddle-Leaf Fig</h5>
+      <p class="w3-text-grey">It is a popular indoor tree featuring very large, heavily veined leaves that grow upright on a sleek trunk.</p><br>
+    
+      <h5>Syngonium Wendlandii</h5>
+      <p class="w3-text-grey">An eye catching tropical plant with emerald green leaves and a white midvein. As this plant matures, leaves become deeply lobed to the point of forming separated leaflets.</p><br>
+    
+      <h5>Calathea Yellow Fusion</h5>
+      <p class="w3-text-grey">The Yellow Fusion variety of Calathea has lovely green and Yellow marbling on the leaves with pale purple undersides. It is a wonderfully showy, decorative plant that is bound to attract attention.</p>
+    </div>  
+    <p></p><p></p>
+
+    <div class="gallery">
+      <a target="_blank" href="img3.jpg">
+        <img src="img3.jpg" alt="Red Mandevilla" width="600" height="400">
+      </a>
+      <div class="desc">Red Mandevilla</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="img2.jpg">
+        <img src="img2.jpg" alt="Orange Hibiscus" width="600" height="400">
+      </a>
+      <div class="desc">Orange Hibiscus</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="img10.png">
+        <img src="img10.png" alt="Bicolor" width="600" height="400">
+      </a>
+      <div class="desc">Bougainvillea</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="nick.jpg">
+        <img src="nick.jpg" alt="Purple" width="600" height="400">
+      </a>
+      <div class="desc">String of Nickles</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="fiddle.jpg">
+        <img src="fiddle.jpg" alt="Purple" width="600" height="400">
+      </a>
+      <div class="desc">Fiddle-Leaf Fig</div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="calathea.jpg">
+      <img src="calathea.jpg" alt="Purple" width="600" height="400">
+    </a>
+    <div class="desc">Calathea Yellow Fusion</div>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT US</span></h5>
+    <p><strong>Address :</strong> South Khalihamari, Opposite Christ Church, Dibrugarh-786001, Assam.</p>
+    <p><strong>Phone :</strong>+91-9706144218</p>
+      <button class="w3-button w3-black"><a class="button" href="mailto:upasanadhekial8n@gmail.com">MAIL US</a></button>
+    
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <a href="#" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+  <a href="http://www.instagram.com/century_garden_dib" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
